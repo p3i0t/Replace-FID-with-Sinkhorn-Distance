@@ -20,13 +20,13 @@ python fid.py
 
 Distribution A:
 
-![distribution A](scatter_A.png){:height="50%" width="50%"}
+![distribution A](scatter_A.png =250x250)
 
 Distribution B:
-![distribution B](scatter_B.png){:height="50%" width="50%"}
+![distribution B](scatter_B.png)
 
 Distribution C:
-![distribution C](scatter_C.png){:height="50%" width="50%"}
+![distribution C](scatter_C.png)
 
 FID fails discriminate among these distributions: FID(A, B) = FID(A, C) = FID(B, C) = 0.
 
