@@ -20,7 +20,7 @@ python fid.py
 
 Distribution A:
 
-![distribution A](scatter_A.png =250x250)
+<img src="./scatter_A.png" width="100">
 
 Distribution B:
 ![distribution B](scatter_B.png)
