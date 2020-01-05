@@ -20,13 +20,14 @@ python fid.py
 
 Distribution A:
 
-![distribution A](scatter_A.png)
+![distribution A](scatter_A.png =250x)
 
 Distribution B:
-![distribution B](scatter_B.png)
+![distribution B](scatter_B.png=250x)
 
 Distribution C:
-![distribution C](scatter_C.png)
+![distribution C](scatter_C.png=250x)
 
-FID(A, B) = FID(A, C) = FID(B, C) = 0
-SID(A, B) = 0.83, SID(A, C) = SID(B, C) = 0.56
+FID fails discriminate among these distributions: FID(A, B) = FID(A, C) = FID(B, C) = 0.
+
+However, SID could, SID(A, B) = 0.83, SID(A, C) = SID(B, C) = 0.56
