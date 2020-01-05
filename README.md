@@ -19,14 +19,17 @@ python fid.py
 ### Toy example
 
 Distribution A:
+
 <img src="./scatter_A.png" width="250">
 
 Distribution B:
+
 <img src="./scatter_B.png" width="250">
 
 Distribution C:
+
 <img src="./scatter_C.png" width="250">
 
-FID fails discriminate among these distributions: FID(A, B) = FID(A, C) = FID(B, C) = 0.
+FID fails to discriminate among these distributions: FID(A, B) = FID(A, C) = FID(B, C) = 0.
 
 However, SID could, SID(A, B) = 0.83, SID(A, C) = SID(B, C) = 0.56
